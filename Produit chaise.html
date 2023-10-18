@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destok'rapid, le e-commerce qui change</title>
+    <link rel="stylesheet" href="Site e-commerce.css">
+</head>
+
+<body>
+    <nav>
+        <img src="voiture.png">
+        <h1>Destok'rapid</h1>
+        <div class="navigation">
+            <a href="Site e-commerce.html">Accueil</a>
+            <a href="Site e-commerce.html#categorie">Catégories</a>
+            <a href="Site e-commerce.html#produits">Produits</a>
+            <a href="Site e-commerce.html#localisation">Venir en magasin</a>
+            <a href="Site e-commerce.html#support">Support</a>
+        </div>
+    </nav>
+</body>
+<section class="pageproduit">
+    <div>
+        <img src="chaise.jpg" class="tailleproduit" alt="image de la chaise mise en vente">
+    </div>
+    <div class="description">
+        <h2>Chaise MÅNHULTS</h2>
+        <p>Chaise de Bureau, à bascule très confortable avec rembourrage épais et moelleux</p>
+        <p>102cm de hauteur et 75cm de largeur pour 14,35 kg, couleur noir</p>
+    </div>
+    <div class="description2">
+        <div>
+            <h2>19€99</h2>
+            <br>
+            <form action="traitement_commande.php" method="post">
+                <div class="product">
+                    <label for="quantite">Quantité :</label>
+                    <input type="number" value="1" min="1" required>
+
+                    <label for="nom">Nom :</label>
+                    <input type="text" required>
+
+                    <label for="prénom">Prénom :</label>
+                    <input type="text" required>
+
+                    <label for="email">Adresse E-mail :</label>
+                    <input type="email" required>
+
+                    <label for="adresse">Adresse de Livraison :</label>
+                    <textarea required></textarea>
+
+                    <input type="submit" value="Passer la Commande">
+            </form>
+        </div>
+</section>
+<div class="pointvue">
+    <img src="chaise2.jpg" alt="plan de vu différent du produit de coté ">
+    <img src="chaise3.jpg" alt="plan de vu différent du produit de dos ">
+</div>
+<h2 class="jeanaimarre" >Produits Recommandés</h2>
+<div class="pointvue" >
+    <img src="chaiserecommandé1.png" alt="chaise recommandé différente">
+    <img src="chaiserecommandé2.webp" alt="chaise recommandé différente ">
+    <img src="chaiserecommandée3.png" alt="chaise recommandé différente">
+</div>

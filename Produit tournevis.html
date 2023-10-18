@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destok'rapid, le e-commerce qui change</title>
+    <link rel="stylesheet" href="Site e-commerce.css">
+</head>
+
+<body>
+    <nav>
+        <img src="voiture.png">
+        <h1>Destok'rapid</h1>
+        <div class="navigation">
+            <a href="Site e-commerce.html">Accueil</a>
+            <a href="Site e-commerce.html#categorie">Catégories</a>
+            <a href="Site e-commerce.html#produits">Produits</a>
+            <a href="Site e-commerce.html#localisation">Venir en magasin</a>
+            <a href="Site e-commerce.html#support">Support</a>
+        </div>
+    </nav>
+</body>
+<section class="pageproduit">
+    <div>
+        <img src="tournevis.jpg" class="tailleproduit" alt="image des tournevis  mise en vente">
+    </div>
+    <div class="description">
+        <h2>Velleman Jeu de Tournevis et embouts</h2>
+        <p>Boite de 20 tournevis allant du plus petit au plus grand, parfait pour avoir LE tournevis adapté à chaque situations</p>
+        <p>Tailles des tournevis 15cm , nous vous affrons aussi 20 fraises emboitables et aimentées dont des plates, des étoiles, des cruciformes et bien d'autres</p>
+    </div>
+    <div class="description2">
+        <div>
+            <h2>15€50</h2>
+            <br>
+            <form action="traitement_commande.php" method="post">
+                <div class="product">
+                    <label for="quantite">Quantité :</label>
+                    <input type="number" value="1" min="1" required>
+
+                    <label for="nom">Nom :</label>
+                    <input type="text" required>
+
+                    <label for="prénom">Prénom :</label>
+                    <input type="text" required>
+
+                    <label for="email">Adresse E-mail :</label>
+                    <input type="email" required>
+
+                    <label for="adresse">Adresse de Livraison :</label>
+                    <textarea required></textarea>
+
+                    <input type="submit" value="Passer la Commande">
+            </form>
+        </div>
+</section>
+<div class="pointvue">
+    <img src="tournevis1.png" alt="plan de vu différent du produit">
+    <img src="tournevis2.png" alt="plan de vu différent du produit">
+</div>
+<h2 class="jeanaimarre" >Produits Recommandés</h2>
+<div class="pointvue" >
+    <img src="tournevis3.jpg" alt="tournevis recommandé différente">
+    <img src="tournevis4.jpg" alt="tournevis recommandé différente ">
+    <img src="tournevis5.png" alt="tournevis recommandé différente">
+</div>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destok'rapid, le e-commerce qui change</title>
+    <link rel="stylesheet" href="Site e-commerce.css">
+</head>
+
+<body>
+    <nav>
+        <img src="voiture.png">
+        <h1>Destok'rapid</h1>
+        <div class="navigation">
+            <a href="Site e-commerce.html">Accueil</a>
+            <a href="#categorie">Catégories</a>
+            <a href="#produits">Produits</a>
+            <a href="#localisation">Venir en magasin</a>
+            <a href="#support">Support</a>
+        </div>
+    </nav>
+    <header>
+        <div classe="intro">
+            <h1>Bienvenue sur le site de destokage qui fait du bien a votre portefeuille</h1>
+            <p>Le principe est très simple, nous récuperons vos appareils défectueux, ou ce que vous n'utilisez plus,
+                nous les remettons en forme et nous les revendons. </p>
+            <p>Ainsi, vous trouverez des canapés aux chaussures en passant par les téléphones et lave-linge</p>
+        </div>
+        <div>
+            <img class="livreur" src="livreur.jpg" alt="image d'un livreur et de sa cliente en pleine action">
+        </div>
+    </header>
+    <section class="categorie" id="categorie">
+        <div>
+            <h2>Catégories</h2>
+            <div class="photo">
+                <img src="mobilier.jpg" alt="image de salon">
+                <figcaption><a href="Page 2 mobilier.html">Mobilier</a></figcaption>
+                <img src="vetement.jpg" alt="image de vetements">
+                <figcaption><a href="Page 3 vetements.html">Vêtements</a></figcaption>
+                <img src="electroniquee.jpg" alt="image d'un PC , d'un telephone et montre ">
+                <figcaption><a href="Page 4 electroménager.html">Electro<br>ménager</a></figcaption>
+                <img src="bricolage.png" alt="image de diverses outils de bricolage">
+                <figcaption><a href="Page 5 bricolage.html">Bricolage</a></figcaption>
+            </div>
+        </div>
+    </section>
+    <section id="produits" class="produits">
+        <div>
+            <h2>Quelques Produits</h2>
+            <div class="exemple">
+                <img src="canapé.jpg" alt="image de canapé">
+                <figcaption><a href="Produit canapée.html">Canapé</a></figcaption>
+                <img src="chaussure.png" alt="image de chaussure">
+                <figcaption><a href="Produit chaussure.html">Chaussure</a></figcaption>
+                <img src="telephone2.jpg" alt="image d'un telephone " id="pikachu">
+                <figcaption><a href="Produit IPHONE.html">Telephone</a></figcaption>
+                <img src="perceusee.jpeg" alt="image d'une perceuse">
+                <figcaption><a href="Produit perceuse.html">Perceuse</a></figcaption>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div id="localisation" class="localisation">
+            <h2>Vous souhaitez vendre un bien?</h2>
+            <p>Venez nous rencontrer</p>
+            <iframe class="localisation"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.5010732411674!2d4.814710976241341!3d45.74109971492091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ebcbbf5dcf7d%3A0x8046dc3f1ae4d957!2sP%C3%B4le%20de%20commerces%20et%20de%20loisirs%20Confluence!5e0!3m2!1sfr!2sfr!4v1697018187517!5m2!1sfr!2sfr"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+</body>
+<footer>
+    <div id="support">
+        <h2>Laissez nous un message</h2>
+        <form action="https://api.web3forms.com/submit" method="post">
+
+            <input type="hidden" name="access_key" value="af3ad32a-d6e6-4679-834d-200df7e0a063">
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="Prénom">Prénom :</label>
+            <input type="text" id="prénom" name="prénom" required><br><br>
+
+            <label for="email">Adresse e-mail :</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="telephone">Numéro de téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" required><br><br>
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="2" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Envoyer" class="bouton">
+        </form>
+
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+
+    </div>
+</footer>
+<h2 class="haut"><a href="#">Retour en haut de page</a></h2>

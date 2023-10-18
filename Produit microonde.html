@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destok'rapid, le e-commerce qui change</title>
+    <link rel="stylesheet" href="Site e-commerce.css">
+</head>
+
+<body>
+    <nav>
+        <img src="voiture.png">
+        <h1>Destok'rapid</h1>
+        <div class="navigation">
+            <a href="Site e-commerce.html">Accueil</a>
+            <a href="Site e-commerce.html#categorie">Catégories</a>
+            <a href="Site e-commerce.html#produits">Produits</a>
+            <a href="Site e-commerce.html#localisation">Venir en magasin</a>
+            <a href="Site e-commerce.html#support">Support</a>
+        </div>
+    </nav>
+</body>
+<section class="pageproduit">
+    <div>
+        <img src="microonde.webp" class="tailleproduit2" alt="image du micro-onde mise en vente">
+    </div>
+    <div class="descriptionmo">
+        <h2>Mico-onde SAMSUNG EX MS28F303EFS</h2>
+        <p>Micro-onde noir vraiment très puissant, peut aller jusqu'à 1200 watts, vernissement extérieure pour plus de confort visuel et de sécurité. </p>
+        <p>Mesure 40cm de longeur et 25 cm de largeur et sur 30 cm de profondeur, pèse 15kg</p>
+    </div>
+    <div class="description2">
+        <div>
+            <h2>129€9</h2>
+            <br>
+            <form action="traitement_commande.php" method="post">
+                <div class="product">
+                    <label for="quantite">Quantité :</label>
+                    <input type="number" value="1" min="1" required>
+
+                    <label for="nom">Nom :</label>
+                    <input type="text" required>
+
+                    <label for="prénom">Prénom :</label>
+                    <input type="text" required>
+
+                    <label for="email">Adresse E-mail :</label>
+                    <input type="email" required>
+
+                    <label for="adresse">Adresse de Livraison :</label>
+                    <textarea required></textarea>
+
+                    <input type="submit" value="Passer la Commande">
+            </form>
+        </div>
+</section>
+<div class="pointvue">
+    <img src="micro1.png" alt="plan de vu différent du produit">
+    <img src="micro2.png" alt="plan de vu différent du produit">
+</div>
+<h2 class="jeanaimarre" >Produits Recommandés</h2>
+<div class="pointvue" >
+    <img src="micro3.jpg" alt="micro-onde recommandé différente">
+    <img src="micro4.png" alt="micro-onde recommandé  différente ">
+    <img src="micro5.jpg" alt="micro-onde recommandé  sdifférente">
+</div>

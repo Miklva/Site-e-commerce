@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destok'rapid, le e-commerce qui change</title>
+    <link rel="stylesheet" href="Site e-commerce.css">
+</head>
+
+<body>
+    <nav>
+        <img src="voiture.png">
+        <h1>Destok'rapid</h1>
+        <div class="navigation">
+            <a href="Site e-commerce.html">Accueil</a>
+            <a href="Site e-commerce.html#categorie">Catégories</a>
+            <a href="Site e-commerce.html#produits">Produits</a>
+            <a href="Site e-commerce.html#localisation">Venir en magasin</a>
+            <a href="Site e-commerce.html#support">Support</a>
+        </div>
+    </nav>
+</body>
+<section class="pageproduit">
+    <div>
+        <img src="machine a laver.jpg" class="tailleproduit2" alt="image de la machine à laver mise en vente">
+    </div>
+    <div class="description">
+        <h2>Machine à laver SAMSUNG hublot</h2>
+        <p>Machine a Laver SAMSUNG noir, a plus de 15 modes différents et 10 options pour garantire le meilleur lavage possible pour tout typr de tissus</p>
+        <p>Mesure 80 cm de largeure et 85 cm de longeur sur 110cm de hauteur, pèse 40kg et la porte à un diamètre de 50cm </p>
+    </div>
+    <div class="description2">
+        <div>
+            <h2>199€9</h2>
+            <br>
+            <form action="traitement_commande.php" method="post">
+                <div class="product">
+                    <label for="quantite">Quantité :</label>
+                    <input type="number" value="1" min="1" required>
+
+                    <label for="nom">Nom :</label>
+                    <input type="text" required>
+
+                    <label for="prénom">Prénom :</label>
+                    <input type="text" required>
+
+                    <label for="email">Adresse E-mail :</label>
+                    <input type="email" required>
+
+                    <label for="adresse">Adresse de Livraison :</label>
+                    <textarea required></textarea>
+
+                    <input type="submit" value="Passer la Commande">
+            </form>
+        </div>
+</section>
+<div class="pointvue">
+    <img src="machine1.png" alt="plan de vu différent du produit">
+    <img src="machine2.png" alt="plan de vu différent du produit">
+</div>
+<h2 class="jeanaimarre" >Produits Recommandés</h2>
+<div class="pointvue" >
+    <img src="machine3.jpg" alt="machine a laver recommandé différente">
+    <img src="machine4.jpeg" alt="machine a laver différente ">
+    <img src="machine5.png" alt="machine a laver différente">
+</div>
